@@ -1,0 +1,37 @@
+.btn-carrito {
+    background: rgba(40, 2, 2, 0.456);
+    padding-bottom: 10px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+    bottom: 20px;
+    height: 60px;
+    width: 60px;
+    right: 20px;
+}
+
+.btn-carrito:hover {
+    box-shadow: 10px 20px 20px lightgray;
+    background-color: rgb(93, 5, 5);
+    border: 1px solid rgba(40, 2, 2, 0.531);
+    transition: 0.5s ease;
+    filter: sepia(100%) brightness(120%)
+}
+
+.btn-carrito:active {
+    box-shadow: 6px 10px 30px lightgray;
+    background-color: whitesmoke;
+    border: 1px solid rgba(40, 2, 2, 0.531);
+    filter: none;
+    transition: 0.2s ease-in;
+}
+
+.btn-carrito img {
+    width: 30px;
+}
+
+#cart-quantity {
+    color: red;
+    margin-top: 2px;
+}

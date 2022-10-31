@@ -1,0 +1,54 @@
+.dialog {
+    overflow-y: hidden;
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.dialog-close {
+    position: fixed;
+    margin-top: 10%;
+    margin-left: 86%;
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.dialog-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 40px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.dialog-content img {
+    width: 200px;
+}
+
+.dialog-content-img {
+    margin-right: 40px;
+    display: inline;
+    width: 1fr;
+}
+
+.dialog-content-description {
+    display: inline-block;
+    width: 2fr;
+}
+
+.dialog-content-description p strong {
+    text-transform: uppercase;
+}
+
+.dialog-content-notas {
+    text-align: justify;
+    line-height: 3rem;
+    display: block;
+    width: 3fr;
+}

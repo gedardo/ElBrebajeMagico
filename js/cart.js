@@ -76,8 +76,8 @@ const updateCart = (cart) =>
             <h4>Total: $${total.toFixed(2)}</h4>
         </div>`;
     div.innerHTML += `<div class="div-btn"> <button class="button" id="checkout">Finalizar compra </button>
-                       <a  href="index.html"><button class="button" id="volver">Seguir Comprando </button><a/>
-                       <div/>`;
+                       <a  href="index.html"/><button class="button" id="volver">Seguir Comprando </button></a>
+                       </div>`;
     cartContainer.appendChild(div);
     loadEvents(total);
 }

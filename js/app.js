@@ -97,10 +97,9 @@ const agregarAlCarrito = (event)=> {
     let found = carrito.find(element => element.id == parseInt(event.target.id));
     if(found)
     {
-        // esta en el carrito
         found.quantity++;
-        localStorage.setItem('carrito', JSON.stringify(vinos));
-        // notification('Producto agregado con éxito!')
+        localStorage.setItem('carrito', JSON.stringify(carrito));
+        notification('Producto agregado con éxito!')
     }
     else
     {
@@ -112,12 +111,11 @@ const agregarAlCarrito = (event)=> {
                 nombre: product.nombre,
                 precio: product.precio,
                 categoria: product.categoria,
-                // image: product.image,
                 quantity: 1
             }
             carrito.push(newProduct);
             localStorage.setItem('carrito', JSON.stringify(carrito));
-            // notification('Producto agregado con éxito!');
+            notification('Producto agregado con éxito!');
         }
     }
     setQuantity(carrito);

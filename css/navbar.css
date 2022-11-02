@@ -10,6 +10,12 @@
     box-shadow: 6px 10px 40px lightgray;
 }
 
+.navbar i{
+    padding: 20px;
+    color: #fff;
+    font-size: 2.5em;
+}
+
 .logo {/* LOGO */
     margin-top: 0px;
     font-size: 34px;

@@ -93,7 +93,6 @@ const setQuantity = () =>
 }
 
 const agregarAlCarrito = (event)=> {
-    debugger
     let found = carrito.find(element => element.id == parseInt(event.target.id));
     if(found)
     {

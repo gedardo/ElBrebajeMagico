@@ -11,9 +11,8 @@
 
 .dialog-close {
     position: fixed;
-    margin-top: 10%;
-    margin-left: 86%;
-    color: white;
+    margin-left: 84%;
+    color: black;
     font-size: xx-large;
     font-weight: 500;
     cursor: pointer;
@@ -21,7 +20,7 @@
 
 .dialog-content {
     background-color: #fefefe;
-    margin: 15% auto;
+    margin: auto;
     padding: 40px;
     border: 1px solid #888;
     width: 80%;
